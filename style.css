@@ -1,0 +1,202 @@
+:root {
+    --pink:#f20089;
+    --darkPink:#9e0059;
+    --blue:#390099;
+    --orange:#ff5400;
+    --yellow:#ffbd00;
+    --blueGradient: linear-gradient(to bottom right, #380199, #a0bcfd);
+    --astra: linear-gradient(to bottom right,#fff, #ae2a75);;
+    --pfizer: linear-gradient(to bottom right,#fff, #390099);
+    --moderna: linear-gradient(to bottom right, #fff, #ff5c91);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--darkPink);
+    border-bottom: 1px solid var(--darkPink);
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h3 {
+    color: var(--blue);
+}
+
+/* Utilities */
+.btn {
+    background: var(--pink);
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background: #fff;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.section-title {
+    background: var(--blueGradient);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4rem 0;
+    width: 100vw;
+    margin: 2rem 0;
+}
+
+.item-content {
+    max-height: 40vh;
+    display: flex;
+    width: 100%;
+}
+
+.item-title {
+    color: var(--pink);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-bg {
+    background: var(--darkPink);
+    color: #fff;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card {
+    min-width: 18rem;
+}
+
+.card img {
+    height: 120px;
+    object-fit: scale-down;
+}
+
+.card h5 {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.card-body p {
+    color: #000;
+}
+
+/* Navbar */
+#navbar {
+    background: #fff;
+}
+
+#navbar a {
+    color: var(--pink);
+}
+
+#navbar a:hover {
+    color: var(--darkPink);
+}
+
+/* Header */
+#header {
+    height: 80vh;
+    padding-top: 5rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 100%;
+}
+
+.header-text {
+    width: 50%;
+    text-align: center;
+}
+
+.header-img {
+    width: 50%;
+}
+
+/* Cards */
+.cards-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 21rem);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Vaccines */
+#astrazeneca {
+    background: var(--astra);
+}
+
+.astrazeneca {
+    color: var(--darkPink);
+    border: 1px solid var(--darkPink);
+}
+
+#pfizer {
+    background: var(--pfizer);
+}
+
+.pfizer {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+#moderna {
+    background: var(--moderna);
+}
+
+.moderna {
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+#vaccines .cards-content {
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 576px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .item-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-title,
+    .item-bg {
+        width: 100%;
+    }
+    
+    .cards-content {
+        grid-template-columns: 1fr;
+    }
+    
+}

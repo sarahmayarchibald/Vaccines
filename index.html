@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vaccination</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vaccination</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#covid">COVID-19</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vaccines
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#astrazeneca">Astra-Zeneca</a></li>
+                  <li><a class="dropdown-item" href="#pfizer">Pfizer-BioNTech</a></li>
+                  <li><a class="dropdown-item" href="#moderna">Moderna</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#checks">Checks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#legal">Legal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#protocol">National Protocol</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#elearning">eLearning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+                            
+            </ul>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vaccines</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-lg justify-content-lg-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#covid">COVID-19</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vaccines
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#astrazeneca">Astra-Zeneca</a></li>
+                  <li><a class="dropdown-item" href="#pfizer">Pfizer-BioNTech</a></li>
+                  <li><a class="dropdown-item" href="#moderna">Moderna</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#checks">Checks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#legal">Legal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#protocol">National Protocol</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#elearning">eLearning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+                            
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+
+      <!-- Header -->
+      <header id="header">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Vaccination & Protocols</h1>
+                <a class="btn" href="#covid">COVID-19</a>
+                <a class="btn" href="#vaccines">Vaccines</a>
+            </div>
+            <!-- <div class="header-img">
+                <img src="img/undraw_science.svg" alt="">
+            </div> -->
+        </div>
+      </header>
+
+    <!-- Covid-19 -->
+    <section id="covid">
+        <div class="section-title">
+            <h2>What is COVID-19?</h2>
+        </div>
+        <div class="container">
+            <div class="item-content">
+                <div class="item-title">
+                    <!-- TO DO: Dropdown menu -->
+                    <!-- <a href="#" class="btn">Symptoms</a>
+                    <a href="#" class="btn">Long COVID</a> -->
+                </div>
+                <div class="item-bg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod, dolore ipsam natus cupiditate in mollitia perferendis, maxime consequatur consequuntur laborum quo ratione itaque aut eius rerum aspernatur nam ab? Dolores, tempore? Officia vero, quidem optio eaque amet magnam eos facere pariatur ad, perferendis fugiat soluta dolores. Est, suscipit voluptas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vaccines">
+        <div class="section-title">
+            <h2>Vaccines</h2>
+        </div>
+            <div class="container">
+                <h3>mRNA</h3>
+                <p>The COVID-19 Vaccine Moderna is a messenger ribonucleic acid (mRNA) vaccine. It contains the genetic sequence (mRNA) for the spike protein, which is found on the surface of the SARS-CoV-2 virus, wrapped in a lipid envelope (referred to as a nanoparticle) to enable it to be transported into the cells in the body.
+                <br>
+                When the vaccine is injected, the mRNA is taken up by the host's cells, which translate the genetic information and produce the spike proteins. These are then displayed on the surface of the cell. This stimulates the immune system to produce antibodies and activate T-cells which prepare the immune system to respond to any future exposure to the SARS-CoV-2 virus by binding to and disabling any virus encountered.
+                <br>                    
+                As there is no whole or live virus involved, the vaccine cannot cause disease. The mRNA naturally degrades after a few days.</p>
+                <h3>Viral Vector</h3>
+                <p>A viral vector vaccine uses part of a weakened adenovirus as a carrier to deliver the genetic sequence for the SARS-CoV-2 virus spike protein into cells. The adenovirus has been modified so that it cannot replicate in human cells and therefore cannot cause any disease. Once it has delivered the SARS-CoV-2 spike protein genetic code, the adenovirus is destroyed by the body.
+                <br>
+                The genes that encode for the spike protein on the SARS-CoV-2 virus have been inserted into the adenovirus's genetic code to make the vaccine. When the vaccine is injected, the modified adenovirus binds to the surface of human cells and delivers the genetic code (mRNA) for the spike protein. The cells then process the mRNA and manufacture the spike protein. 
+                <br>
+                This then stimulates the immune system which reacts by producing antibodies and activating memory T cells to the SARS-CoV-2 virus without causing disease. If the SARS-CoV-2 virus is later encountered, the immune system should be able to respond rapidly.</p>
+                <a href="#" class="btn">Immunity</a>
+
+                <div class="cards-content">
+                    <div class="card astrazeneca" id="astrazeneca">
+                        <div class="card-body">
+                          <h5 class="card-title">Astra-Zeneca</h5>
+                          <h6>Dosing</h6>
+                          <p>0.5mL - 4mL - 8 doses/vial</p>
+                          <h6>Use</h6>
+                          <p>Once punctured, within 6 hours</p>
+                          <h6>Storage</h6>
+                          <p>2℃ and +8℃. The vaccine must not be frozen. </p>                         
+                          <h6>Shelf-life</h6>
+                          <p>6 months stored between +2℃ and +8℃</p>
+                          <h6>Reconstitution</h6>
+                          <p>None</p>
+                          <h6>2nd dose</h6>
+                          <p>Between 4 and 12 weeks after the first dose</p>
+                          <h6>Effective</h6>
+                          <p>70.4% after two doses.</p>
+                          <h6>Trials</h6>
+                          <p>UK, Brazil, South-Africa - 24'000 participants</p>
+                          <a href="#" class="btn">FAQ</a>
+                        </div>
+                    </div>
+                    <div class="card pfizer" id="pfizer">
+                        <div class="card-body">
+                          <h5 class="card-title">Pfizer-BioNTech</h5>
+                          <h6>Dosing</h6>
+                          <p>0.3mL - 6 doses/vial</p>
+                          <h6>Use</h6>
+                          <p>Once diluted, within 6 hours up to 25°C.</p>
+                          <h6>Storage</h6>
+                          <p>-80°C to -60°C </p>
+                          <p>Thaw between 2°C to 8°C for 3 hours.</p>
+                          <p>Thaw at room temperature up to 25°C for 2 hour</p>
+                          <h6>Shelf-life</h6>
+                          <p>6 months stored between -80°C to -60°C</p>
+                          <p>Undiluted vaccine: up to 5 days between 2°C to 8°C</p>
+                          <h6>Reconstitution</h6>
+                          <p>0.45mL vaccine to reconstitute with 1.8mL NaCl</p>
+                          <p>Invert 10x before and after reconstitution. Do not shake.</p>
+                          <h6>2nd dose</h6>
+                          <p>Between 4 and 12 weeks after the first dose</p>
+                          <h6>Effective</h6>
+                          <p>95% after two doses.</p>
+                          <h6>Trials</h6>
+                          <p>6 countries - 44'000 participants</p>
+                          <a href="#" class="btn">FAQ</a>
+                        </div>
+                    </div>
+                    <div class="card moderna" id="moderna">
+                        <div class="card-body">
+                          <h5 class="card-title">Moderna</h5>
+                          <h6>Dosing</h6>
+                          <p>0.5mL - 5mL - 10 doses/vial</p>
+                          <h6>Use</h6>
+                          <p>Once punctured, within 6 hours</p>
+                          <h6>Storage</h6>
+                          <p>-25°C to -15°C - must not be stored on dry ice or below -40°C</p>
+                          <p>Thaw between 2°C to 8°C for 2½ hours. Let stand at room temperature for 15 minutes before administering</p>
+                          <p>Thaw at room temperature between 15°C to 25°C for 1 hour</p>
+                          <p>Once thawed, refrigerated at 2°C to 8°C, protected from light, for a maximum of 30 days</p>
+                          <h6>Shelf-life</h6>
+                          <p>7 months at -25°C to -15°C</p>
+                          <h6>Reconstitution</h6>
+                          <p>None</p>
+                          <h6>2nd dose</h6>
+                          <p>Between 4 and 12 weeks after the first dose</p>
+                          <h6>Effective</h6>
+                          <p>94% after two doses.</p>
+                          <h6>Trials</h6>
+                          <p>United States - 30'351 participants</p>
+                          <a href="#" class="btn">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+                <h3>Eligibility</h3>
+                <p>As the aim of the COVID-19 vaccination programme is to protect those most at risk from severe illness or death, the Joint Committee on Vaccination and Immunisation (JCVI) have prioritised the eligible groups according to risk</p>
+                <!-- IMG table age to add -->
+                <h4>Under 18</h4>
+                <p>Currently, only the Pfizer BioNTech vaccine is authorised for use in people aged 16-17 years. The Moderna vaccine should be only be offered to people under 18 in certain exceptional circumstances (unless the Pfizer BioNTech vaccine is contraindicated).
+                <br>
+                It is unlawful to vaccinate someone under 18 years of age with the Moderna vaccine unless delivered directly by an Authorised Prescriber (usually a doctor) or under a Patient Specific Direction (PSD) which has also been completed by an Authorised Prescriber.</p>
+            </div>
+        
+    </section>
+
+    <!-- Checks -->
+    <section id="checks">
+        <div class="section-title">
+            <h2>Checks</h2>
+        </div>
+            <div class="container">
+                <h3>Contraindications</h3>
+                <p>COVID-19 Vaccines should not be given to people who have had a previous systemic allergic reaction (including immediate-onset anaphylaxis) to:
+                    <ul>
+                        <li>A previous dose of the same COVID-19 vaccine</li>
+                        <li>Any component (excipient) of the COVID-19 vaccine</li>
+                    </ul>                      
+                <!-- IMG components? -->
+                </p>
+                <h3>Anaphylaxis</h3>
+                <p>A very small number of individuals have experienced anaphylaxis when vaccinated with the Pfizer BioNtech and Moderna COVID-19 vaccines. Following close national surveillance, the MHRA is <span class="alert-warning">no longer advising that individuals with a history of anaphylaxis to any vaccine, medicine or food do not get that vaccine</span>. Anyone with a <span class="alert-danger">previous history of allergic reactions to the ingredients</span> of the vaccine <span class="alert-danger">should not receive it</span>, but those with any other allergies (such as a food allergy) can now have the vaccine</p>
+                <h3>Other vaccines in the past 7 days</h3>
+                <p>It is recommended that COVID-19 vaccines are not routinely given at the same time as any other vaccine and that there should ideally be an interval of at least 7 days between COVID-19 vaccine and a different vaccine to avoid incorrect attribution of potential adverse events.</p>
+                <h3>Previous vaccine dose</h3>
+                <p>There is no evidence as to the interchangeability of different COVID-19 vaccines although studies are underway. For this reason, it is currently recommended that the same COVID-19 vaccine product is given for both doses. 
+                <br>
+                It is recommended that the second dose of COVID-19 vaccine should be routinely scheduled between 4 and 12 weeks after the first dose or in accordance with official guidance at the time.
+                </p>
+                <!-- IMG  -->
+                <h3>Other checks</h3>
+                <div class="cards-content">
+                    
+                    <div class="card" id="">
+                        <div class="card-body">
+                          <h5 class="card-title">Bleeding Disorders</h5>
+                          <ul>
+                              <li>Individuals with bleeding disorders may be vaccinated intramuscularly if, in the opinion of a doctor can be administered with reasonable safety.</li>
+                              <li>If the individual receives medication/treatment for haemophilia, intramuscular vaccination can be scheduled shortly after such medication/treatment is administered. </li>
+                              <li>Warfarin: If the latest INR is below the upper level of the therapeutic range, can receive vaccination, followed by firm pressure applied to the site without rubbing for at least 2 minutes.</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="">
+                        <div class="card-body">
+                          <h5 class="card-title">Pregnancy</h5>
+                          <ul>
+                              <li>There is currently <span class="alert-warning">insufficient evidence</span> to recommend the routine use of COVID-19 vaccine during pregnancy.</li>
+                              <li>JCVI has advised that <span class="alert-danger">vaccination in pregnancy should be considered where the risk of exposure to COVID-19 is high and cannot be avoided, or where the woman has underlying conditions that put them at very high risk of serious complications.</span>  In these circumstances, the risks and benefits of vaccination as well as the absence of safety data for the vaccine in pregnancy should be discussed.</li>
+                              <li>If a woman finds out she is <span class="alert-warning">pregnant after she has started a course of COVID-19 vaccine</span>, she may complete vaccination during pregnancy <span class="alert-danger">if she is considered at high risk</span>.</li>
+                              <li>Vaccination should be offered as soon as possible after pregnancy.</li>
+                              <li>Termination of pregnancy following inadvertent immunisation should not be recommended. In this case, it should be reported to PHE.</li>
+                              <a class="btn" href="www.gov.uk/guidance/vaccination-in-pregnancy-vip" target="_blank">PHE</a>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="">
+                        <div class="card-body">
+                          <h5 class="card-title">Breastfeeding</h5>
+                          <p>There is no known risk associated with giving non-live vaccines whilst breastfeeding. JCVI advises that breastfeeding women may be offered vaccination with COVID-19 vaccine</p>
+                        </div>
+                    </div>
+                    <div class="card" id="">
+                        <div class="card-body">
+                          <h5 class="card-title">COVID-19 Symptoms</h5>
+                          <ul>
+                              <li>Should not attend for vaccination until they have recovered. </li>
+                              <li>Vaccination should ideally be deferred until around 4 weeks after onset of symptoms, or from the first positive test</li>
+                              <li>Having <span class="alert-warning">‘Long COVID’ is not a contraindication</span> to receiving COVID-19 vaccine unless the patient is seriously debilitated.</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="">
+                        <div class="card-body">
+                          <h5 class="card-title">Immunosuppression & HIV</h5>
+                          <ul>
+                              <li>Individuals who have immunosuppression and HIV infection (regardless of CD4 count) should be given COVID-19 vaccine in accordance with the recommendations for this patient group. </li>
+                              <li>They may not make a full immune response to COVID-19 vaccination. As there is no evidence on response in immunosuppressed individuals there is also no evidence upon which to base advice on the optimal timing of delivery.</li>
+                              <li>Planned immunosuppressive therapy should be considered for vaccination prior to commencing their therapy (ideally at least 2 weeks before), when their immune system is best able to make a response. It would also be preferable for the 2-dose schedule to be completed prior to commencing immunosuppression.</li>
+                              <li>Any decision to defer immunosuppressive therapy or to delay possible benefit from vaccination until after therapy should not be taken without due consideration of the risks from COVID-19 and from their underlying condition.</li>
+                          </ul>
+                        </div>
+                    </div>                     
+                </div>                
+            </div>        
+    </section>
+
+     <!-- Administration -->
+     <section id="admin">
+        <div class="section-title">
+            <h2>Administration</h2>
+        </div>
+            <div class="container">
+                <h3>IM Benefits</h3>
+                <ul>
+                    <li>Leads to a better immune response to the vaccine (as the muscle contains the appropriate cells necessary to initiate the immune response)</li>
+                    <li>Is less likely to cause local reactions than if the vaccine is given into the skin (subcutaneously)</li>
+                </ul>
+                <div class="cards-content">
+                    <div class="card" id="im1">
+                        <img src="img/IM-1.png" class="card-img-top" alt="Intramuscular injection">
+                        <div class="card-body">
+                          <h5 class="card-title">Technique</h5>
+                          <p class="card-text">The COVID-19 Vaccine Moderna should preferably be administered intramuscularly (IM). There is no need to pull back on the plunger (aspirate) before the plunger is depressed to release the vaccine into the muscle because there are no large blood vessels at the recommended injection sites.</p>
+                        </div>
+                    </div>
+                    <div class="card" id="im1">
+                        <img src="img/IM-2.png" class="card-img-top" alt="Intramuscular injection">
+                        <div class="card-body">
+                          <h5 class="card-title">Deltoid</h5>
+                          <p class="card-text">The COVID-19 Vaccine Moderna should preferably be administered intramuscularly (IM) into the deltoid muscle of the upper arm. The area for injection does not need to be cleaned unless visibly dirty. If cleaning is required, water should be used. It is not necessary to disinfect the skin.</p>
+                        </div>
+                    </div>
+                    <div class="card" id="im1">
+                        <img src="img/IM-3.png" class="card-img-top" alt="Intramuscular injection">
+                        <div class="card-body">
+                          <h5 class="card-title">Thigh</h5>
+                          <p class="card-text">If there is insufficient muscle mass, or a particular reason why the deltoid cannot be used, then inject the vaccine into the anterolateral aspect of the thigh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- Reactions -->
+    <section id="reac">
+        <div class="section-title">
+            <h2>Reactions</h2>
+        </div>
+            <div class="container">
+                <h3>Adverse reactions</h3>
+                <p>There are three main types of adverse reaction following vaccination:</p>
+                <ol>
+                    <li>Local reactions at the injection site such as pain, redness, swelling</li>
+                    <li>Systemic reactions (a reaction affecting the whole body) such as fever, headache, loss of appetite</li>
+                    <li>Allergic reaction such as anaphylaxis or a severe systemic allergic reaction</li>
+                </ol>
+                <h4>Reporting adverse reaction</h4>
+                <p>The Medicines and Healthcare Products Regulatory Agency (MHRA) advises the government on the safety, quality and efficacy of vaccines and promotes the collection and investigation of adverse reactions through the Yellow Card scheme.</p>
+                <p>The Yellow Card scheme is a voluntary reporting system for suspected adverse reactions. Its success depends on early, complete and accurate reporting.</p>
+                <p>Yellow Card reports can signal the possibility that a vaccine may be associated with certain side-effects. This can be investigated further to decide whether the side-effect is truly vaccine related.</p>
+                <p>Anyone can make a Yellow Card report, even if they are uncertain as to whether a vaccine caused the condition.</p>
+                <a class="btn" href="https://coronavirus-yellowcard.mhra.gov.uk/" target="_blank">Yellow Card</a>
+                <div class="cards-content">
+                    <div class="card astrazeneca" id="reac-astra">
+                        <div class="card-body ">
+                          <h5 class="card-title">Astra-Zeneca</h5>
+                          <h6>Local Reactions</h6>
+                          <ul>
+                              <li>Pain at the injection site</li>
+                              <li>Swelling and redness</li>
+                          </ul>
+                          <h6>Systemic Reactions</h6>
+                          <ul>
+                            <li>Tiredness</li>
+                            <li>Chills</li>
+                            <li>Headache & Tiredness</li>
+                            <li>Generally Unwell</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="card pfizer" id="reac-pfizer">
+                        <div class="card-body">
+                          <h5 class="card-title">Pfizer</h5>
+                          <h6>Local Reactions</h6>
+                          <ul>
+                              <li>Pain at the injection site</li>
+                              <li>Swelling and redness</li>
+                          </ul>
+                          <h6>Systemic Reactions</h6>
+                          <ul>
+                            <li>Tiredness</li>
+                            <li>Headache</li>
+                            <li>Muscle Aches & Joint pains</li>
+                            <li>Chills</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="card moderna" id="reac-moderna">
+                        <div class="card-body">
+                          <h5 class="card-title">Moderna</h5>
+                          <h6>Local Reactions</h6>
+                          <ul>
+                              <li>Pain at the injection site</li>
+                              <li>Swelling and redness</li>
+                          </ul>
+                          <h6>Systemic Reactions</h6>
+                          <ul>
+                            <li>Tiredness</li>
+                            <li>Headache</li>
+                            <li>Muscle Aches & Joint pains</li>
+                            <li>Chills</li>
+                            <li>Nausea & Vomitting</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3>Anaphylaxis treatment</h3>
+                <p>Anaphylaxis is a severe allergic reaction.</p>
+                <p class="alert-danger p-2">The signs of anaphylaxis will appear very quickly.</p>
+                <h4>Life-threatening signs:</h4>
+                <ul>
+                    <li>Closing of the airways(read a full definition of this term) making it difficult to breathe</li>
+                    <li>Low blood pressure which can make the person drowsy or unresponsive</li>
+                    <li>Redness and rash to the skin on the face and upper body</li>
+                </ul>
+                <h4>Actions:</h4>
+                <ul>
+                    <li>ABCDE Approach</li>
+                    <li>Call for help</li>
+                    <li>Lie the person flat and raise their legs</li>
+                    <li>Adrenaline (in outer upper thigh)</li>
+                </ul>
+                <h5>Adrenaline doses:</h5>
+                <p class="alert-warning p-2">If taking a beta-blocker, give a safe dose and titrate according to effect.</p>
+                <table class="table">
+                    <thead class="table-dark">
+                      <tr>
+                        <th scope="col">Age</th>
+                        <th scope="col">Dose</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table-info">
+                        <th>Child &lt; 6 years</th>
+                        <td>0.15mL</td>
+                      </tr>
+                      <tr class="table-warning">
+                        <th>Child 6 - 11 years</th>
+                        <td>0.3mL</td>
+                      </tr>
+                      <tr class="table-danger">
+                        <th>Child &gt; 12 years</th>
+                        <td>0.5mL</td>
+                      </tr>
+                      <tr class="table-danger">
+                        <th >Adults</th>
+                        <td>0.5mL</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  
+            </div>
+        
+    </section>
+
+
+    <!-- Legal -->
+    <section id="legal">
+        <div class="section-title">
+            <h2>Legal</h2>
+        </div>
+            <div class="container">
+                <h3>Prescription Only Medicines (POMs)</h3>
+                <p>The regulation of medicines is defined under the Human Medicines Regulations 2012.</p>
+                <p>All vaccines are classified as Prescription Only Medicines (POMs). This means that they are subject to legal restrictions and in order to give them, there needs to be a legal framework in place to supply and/or administer them to eligible people. Additionally, any person who supplies and administers a vaccine must have a legal authority to do so. This legal authority may be in the form of:</p>
+                <ul>
+                    <li>
+                        <h4>A written patient prescription</h4>
+                    </li>
+                    <li>
+                        <h4>Patient Specific Direction (PSD)</h4>
+                        <p>A PSD is a written instruction, signed by a doctor, dentist, or non-medical prescriber to another healthcare provider for medicines to be supplied and/or administered to a named patient after the prescriber has assessed the patient on an individual basis.</p>
+                        <p>It must include the dose, route and frequency or appliance to be supplied or administered to a named patient.</p>
+                    </li>
+                    <li>
+                        <h4>Patient Group Direction (PGD)</h4>
+                        <p>A PGD provides a legal framework to allow some registered specified healthcare professionals to supply and/or administer a POM directly to a patient with an identified clinical condition rather than needing an individual prescription or an instruction from a prescriber.</p>
+                        <p>PGDs are often used for the administration of vaccines and sets out the core requisites of those who can have the medicine and those who should not. The document will also include (but is not limited to) details of any additional training that should have been undertaken, actions to be taken if the patient is excluded or declines the medicine, a description of the medicine(s), route of administration, doses, frequency, reporting of adverse reactions, recording, storage and disposal.</p>
+                        <p>The healthcare professional working under a PGD must work within it and is responsible for assessing that the patient fits the criteria set out in the PGD. The healthcare professional operating under the PGD may not delegate the role to others.</p>
+                        <h5>Who can't work under PGD?</h5>
+                        <ul>
+                            <li>Healthcare assistants</li>
+                            <li>Dentists</li>
+                            <li>Nursing associates</li>
+                            <li>Physician associates</li>
+                        </ul>
+                        <br>
+                        <h5>Authorisation of PGD</h5>
+                        <p>Each PGD must be signed by a doctor and pharmacist, who have provided their signatures to verify that they believe the content is accurate and supported by the best available evidence.</p>
+                        <p>The PGD will also need to be authorised by an appropriate body in keeping with the Human Medicines Regulations (2012) such as (for England) an NHS Trust, CCG, NHS England, local authority or Public Health England.</p>
+                        <p>Health professionals who will be using the PGD must be named and authorised before they use it to provide care. The provider organisation should identify a senior, responsible person from within the service to authorise named, registered health professionals to practise under the PGD. Practitioners should keep a copy of their individual authorisation and have the current authorised PGD available for reference.</p>
+                        <a class="btn" href="https://www.sps.nhs.uk/articles/what-is-a-patient-group-direction-pgd/" target="_blank">SPS</a>
+                        <a class="btn" href="https://www.rcn.org.uk/clinical-topics/medicines-management/patient-specific-directions-and-patient-group-directions" target="_blank">RCN</a>
+                    </li>
+                </ul>
+                
+                <h3>Regulation 247A</h3>
+                <p>In order to ensure that the UK has a sufficiently sized workforce to deliver a COVID-19 vaccine programme, changes in October 2020 to the Human Medicines Regulations (The Human Medicines (Coronavirus and Influenza) (Amendment) Regulations 2020), brought about a new regulation (247A). </p>
+                <p>While a disease is pandemic, regulation 247A allows the supply or administration of a medicinal product used for vaccination against coronavirus in accordance with a protocol that is approved by ministers. A national protocol allows trained and competent non-registered healthcare workers, as well as registered healthcare professionals, to administer COVID-19 vaccine.</p>
+                <p>In accordance with Regulation 247A, the protocol specifies:
+                    <ul>
+                        <li>The characteristics and training required for health care workers permitted to administer COVID-19 vaccine under the protocol</li>
+                        <li>The requirement for individuals to be designated and authorised to administer medicines under the protocol by an appropriate manager (in the employing organisation)</li>
+                        <li>Record keeping requirements (including the requirement to record the name of the person who administers the vaccine)</li>
+                        <li>Requirements for the supervision, where appropriate, of the people administering the vaccine.</li>
+                    </ul>
+                    <p>In addition to the above, the protocol also includes information similar to that commonly found in PGDs</p>
+                    <ul>
+                        <li>Who is eligible for vaccination under the protocol and who is not</li>
+                        <li>Actions to be taken if the patient is excluded or declines the vaccine</li>
+                        <li>A description of the vaccine, route of administration, doses, frequency, reporting of adverse reactions, recording, storage and disposal</li>
+                    </ul>
+                    </p>
+                    <p>The new regulation requires that the written protocol for the supply/administration of a COVID-19 vaccine be approved by the Secretary of State, the Scottish Ministers, the Welsh Ministers or the Minister of Health in Northern Ireland, as appropriate.</p>                  
+                    <h4>Who can work under the protocol?</h4>
+                    <p>The protocol may be followed wholly from patient assessment through to post-vaccination by a single person.</p>
+                    <p>Alternatively, multiple healthcare workers (HCWs) may undertake different stages in the patient vaccination pathway in accordance with the protocol. Where multiple HCW models are used, the provider must ensure that all elements of the protocol are complied with in providing the vaccine to each patient. The service provider is responsible for ensuring that HCWs are trained and competent to safely deliver the activity they are employed to provide under the protocol.</p>
+                    <a class="btn" href="https://www.gov.uk/government/collections/covid-19-vaccination-programme#protocols-and-patient-group-directions-(pgds" target="_blank">GOV Protocols</a>
+                    <br>
+                    <br>
+                    <h3>Regulation 174</h3>
+                    <p>In response to certain public health threats, such as the current pandemic, the UK Medicines and Healthcare products Regulatory Agency (MHRA) can temporarily authorise the supply of an unlicensed medicine or vaccine for use, under regulation 174 of The Human Medicines Regulations 2012, when it is satisfied that there is robust evidence to show the safety, quality and effectiveness of the medicine/vaccine.</p>
+                    <p>In October 2020, new legislation amending The Human Medicines Regulations 2012 was passed. Prior to this, PGDs could only be used for licensed medicines. The change to legislation allows medicines which have been temporarily authorised for supply in the UK under regulation 174 to be administered in accordance with a PGD. So registered healthcare professionals who are allowed to work to a PGD may supply and administer COVID-19 vaccines, temporarily authorised under Regulation 174, using a PGD. The workforce that can administer under PGDs has not changed. </p>
+                    <a class="btn" href="https://www.gov.uk/government/publications/patient-group-directions-pgds/patient-group-directions-who-can-use-them" target="_blank">GOV PGD</a>
+            </div>
+        
+    </section>
+
+    <section id="protocol">
+        <div class="section-title">
+            <h2>National Protocol</h2>
+        </div>
+            <div class="container">
+                <h3>What is a Patient Group Directive?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium nulla iste possimus? Sint ut dolore quia molestias nemo harum praesentium, quas ea cum fugiat nisi ad explicabo tempora. Illo.</p>
+                <h3>What is a Patient Specific Directive?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, facilis nulla quisquam cupiditate alias dignissimos consequatur veritatis recusandae sequi aliquam? Laudantium, beatae? Dolor nobis aut modi possimus laborum sapiente recusandae.</p>
+            </div>
+        
+    </section>
+
+   
+
+    <section id="elearning">
+        <div class="section-title">
+            <h2>e-Learning</h2>
+        </div>
+            <div class="container">
+                <h3>What is a Patient Group Directive?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium nulla iste possimus? Sint ut dolore quia molestias nemo harum praesentium, quas ea cum fugiat nisi ad explicabo tempora. Illo.</p>
+                <h3>What is a Patient Specific Directive?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, facilis nulla quisquam cupiditate alias dignissimos consequatur veritatis recusandae sequi aliquam? Laudantium, beatae? Dolor nobis aut modi possimus laborum sapiente recusandae.</p>
+            </div>
+        
+    </section>
+
+    <section id="contacts">
+        <div class="section-title">
+            <h2>Contacts</h2>
+        </div>
+            <div class="container">
+                <h3>Epsom</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laudantium nulla iste possimus? Sint ut dolore quia molestias nemo harum praesentium, quas ea cum fugiat nisi ad explicabo tempora. Illo.</p>
+                <h3>Lakeside</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, facilis nulla quisquam cupiditate alias dignissimos consequatur veritatis recusandae sequi aliquam? Laudantium, beatae? Dolor nobis aut modi possimus laborum sapiente recusandae.</p>
+            </div>
+        
+    </section>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
